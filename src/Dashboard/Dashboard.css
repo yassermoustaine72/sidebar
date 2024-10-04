@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.container1-dashboard-student{
+   
+
+box-sizing: border-box;
+
+
+width: 650px;
+height: 212px;
+background: linear-gradient(94.59deg, rgba(232, 39, 236, 0.87) -3.32%, #F4A787 21.43%, #F3A08D 35.57%, rgba(242, 105, 175, 0.98) 52.94%, #AAA4F4 79.62%, #B29FED 85.49%, rgba(1, 124, 168, 0.64) 101.7%);
+border-radius: 24px;
+
+}
+.hello-dashboard-student{
+
+width:100%;
+height: 40px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+margin-left: 15%;
+
+}
+.container1-dashboard-student p{
+    margin-left: 15%;
+width: 303px;
+height: 36px;
+
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+}
+
+.student-dashboard-nom{
+
+width:100%;
+height: 20px;
+
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+}
+
+.dashboard-student-deconnecter{
+ 
+width: 175px;
+height: 35px;
+background: linear-gradient(113.18deg, #015192 -9.35%, #00A5BC 87.94%);
+border-radius: 24px;
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+justify-content: center;
+border: solid 0px;
+
+}
+
+.dashboad-student-profil-container{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ 
+box-sizing: border-box;
+
+width: 248px;
+height: 215px;
+margin-left:-3%;
+background: rgba(255, 255, 255, 0.72);
+border: 4px solid #FFFFFF;
+border-radius: 29px;
+
+}
+
+
+.dashboard-student-container2-box h3{
+
+width: 73px;
+height: 72px;
+
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 72px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+margin-left: 12%;
+
+}
+
+.dashboard-student-container2-box p{
+
+width: 190px;
+height: 28px;
+margin-left: 12%;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.dashboard-student-container2-box{
+ 
+width: 304px;
+height: 154px;
+background: rgba(255, 255, 255, 0.63);
+border: 3px solid #FFFFFF;
+border-radius: 25px;
+
+}
+
+.student-dashboard-prestations-container1{
+   
+
+
+height: 182px;
+
+padding: 10px;
+background: #CAAEFF;
+border-radius: 25px;
+
+}
+.student-dashboard-prestations-container2{
+   
+
+    width: 100px;
+    height: 182px;
+    
+    padding: 10px;
+    
+    border-radius: 25px;
+ 
+
+     background: #B5E6F7;
+
+
+    
+    }
+    .student-dashboard-prestations-container3{
+   
+
+        width: 100px;
+        height: 182px;
+        
+        padding: 10px;
+       
+        border-radius: 25px;
+
+
+background: #C3E6BD;
+
+
+        
+        }
+.student-dashboard-prestations-container4{
+width: 100px;
+height: 182px;
+padding: 10px;
+border-radius: 25px;
+background: #FFC6AC;
+
+}
+
+.dashboard-student-Subtitle-service{
+
+width: 257px;
+height: 79px;
+
+margin-top: 15px;
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+
+float: right;
+text-align: right;
+margin-right: 8%;
+color: #020202;
+
+
+}
+.student-dashbord-number{
+
+width: 90px;
+height: 20px;
+
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 80px;
+line-height: 20px;
+
+display: flex;
+align-items: center;
+
+color: rgba(255, 255, 255, 0.17);
+
+
+}
+
+.student-dashboard-abonner{
+
+width: 79px;
+height: 21px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+text-decoration: none;
+float: right;
+margin-right: 12%;
+color: #000000;
+
+
+}
+
+
+.dashboard-student-prestations-title{
+
+width:100%;
+height: 40px;
+
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+
+color: #000000;
+margin-bottom: 35px;
+
+}

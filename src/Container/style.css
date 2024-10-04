@@ -1,0 +1,331 @@
+.titleDashH{
+ 
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 20px;
+
+color: #000000;
+
+
+}
+.sidebar {
+    max-width: 324px;
+    width: 100%;
+    position: fixed;
+   margin-top: 20px;
+    overflow: auto;
+    
+    
+}
+.sidebar {
+    
+    padding: 45px 36px;
+
+background: rgba(255, 255, 255, 0.65);
+border: 4px solid #FFFFFF;
+border-radius: 47px;
+
+    
+}
+.navmenu{
+    margin-top: 5%;
+    margin-bottom: 50%;
+}
+.sidemenu .dropdown-menu {
+    
+    position: relative !important;
+    transform: unset !important;
+    background-color: transparent;
+    border: 0;
+}
+.sidemenu .dropdown-menu{
+    padding-bottom: 0;
+}
+button{
+    box-shadow: unset !important;
+}
+.dropdown-toggle::after{
+    margin-left: 4.255em;
+}
+button#dropdown-basic {
+    padding: 0;
+}
+li.submenu {
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+}
+.sidemenu ul li a{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.sidemenu ul li a svg {
+    margin-right: 11px;
+}
+.dropdown-item-text.active{
+    background-color: #e0e0e0;
+    border-radius: 52px;
+    position: relative;
+}
+/* .dropdown-item-text.active::before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #C43CAB, #F87E4B);
+    display: block;
+    position: absolute;
+    top: 14px;
+    left: 13px;
+    
+} */
+.sidemenu ul li a svg.msg {
+    fill: #000;
+    stroke: unset !important;
+}
+.sidemenu ul li svg.inst{
+    fill: #000 !important;
+    stroke: transparent;
+    
+}
+.sidemenu ul li svg.etu{
+    fill: #000 !important;
+    stroke: transparent;
+}
+.sidemenu ul li svg.reser{
+    fill: transparent !important;
+    stroke: black;
+}
+.sidemenu ul li svg.cal{
+    fill: #000 !important;
+    stroke: transparent;
+}
+.sidemenu ul li.active svg.para{
+    fill: #fff !important;
+    stroke: transparent;
+}
+.sidemenu ul li svg.para{
+    fill: #000000 !important;
+    stroke: transparent;
+}
+.sidemenu ul li.active svg.mesa{
+    fill: transparent !important;
+    stroke: white;
+}
+.sidemenu ul li svg.trans{
+    fill: #000 !important;
+    stroke: transparent;
+}
+.sidemenu ul li.active svg.trans{
+    fill: #fff !important;
+    stroke: transparent;
+}
+.sidemenu ul li.active svg.boutique{
+    stroke: #fff !important;
+    fill: transparent !important;
+}
+.sidemenu ul li svg.boutique{
+    stroke: #000 !important;
+    fill: transparent !important;
+}
+.sidemenu ul li.active svg.msg{
+    fill: #fff !important;
+}
+.sidemenu ul li a svg{
+    fill: transparent;
+    Stroke: #000;
+}
+.sidemenu ul li.active svg.etu{
+    fill: white;
+    stroke: white;
+}
+.sidemenu ul li.active svg.etu{
+    fill: white;
+    stroke: white;
+}
+.sidemenu ul li.active svg {
+    stroke: #fff !important;
+    fill: transparent !important;
+}
+.sidemenu ul li.active a{
+    color: #fff !important;
+}
+.sidemenu ul li a {
+    color: #000 !important;
+}
+.sidemenu ul li{
+    color: #000 !important;
+}
+.dropdown-item-text {
+    padding: 7px 26px;
+    border-radius: 22px;
+    margin-bottom: 6px;
+}
+
+.sidemenu ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 20%;
+}
+/* .explore {
+    background-image: linear-gradient(146deg, #FFD99F, #D091FF);
+    padding: 29px !important;
+    border-radius: 20px;
+} */
+.sidemenu ul li img{
+    margin-right: 5px;
+}
+.explore p {
+    font-size: 16px;
+    font-weight: 800;
+}
+.logo-cover {
+    text-align: center;
+}
+.sidebar .profile {
+    text-align: center;
+    margin-top: 20px;
+}
+/* .explore p span{
+    background: -webkit-linear-gradient(#C43CAB, #F87E4B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.explore button {
+    background-color: #fff !important;
+    border: 2px solid #fff;
+    border-radius: 22px;
+    padding: 8px 26px;
+    
+} */
+.profile img {
+    position: relative;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #C43CAB, #F87E4B) border-box;
+border-radius: 50em;
+border: 6px solid transparent;
+   
+ }
+ .sidemenu ul li {
+    padding: 18px 12px;
+/* Light Theme */
+
+border-radius: 98px;
+
+width: 246px;
+height: 48px;
+
+
+
+
+
+
+
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+}
+
+.explore {
+    padding: 16px;
+}
+.sidemenu ul li.active{
+   
+    border-radius: 52px;
+    
+    /* Light Theme */
+
+
+background: linear-gradient(91.82deg, #025B97 -44.52%, #03AACB 94.48%);
+border-radius: 98px;
+
+
+
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+
+/* Selected text button color in nav bar */
+color: #FFFFFF;
+
+
+}
+ .sidebar .profile h4 {
+    margin-top: 21px;
+    margin-bottom: 2px;
+    font-size: 17px;
+}
+
+.sidebar .profile {
+    text-align: center;
+    margin-top: 20px;
+}
+nav {
+    margin-top: -20px;
+    margin-left: 20px;
+}
+li.breadcrumb-item a {
+    color: #000;
+    text-decoration: none;
+}
+section.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+    align-items: center;
+}
+.other-navigation img {
+    margin-right: 10px;
+}
+.side-content {
+
+    padding-left: 349px;
+}
+.container-wrap {
+    padding-top: 16px;
+}
+.container-fluid.side-head {
+    padding: 0px 32px;
+}
+.main-wrap{
+  background-image: url("../images/dash.png"); 
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+}
+@media(max-height: 800px){
+    .side-navs{
+        height: 438px;
+        overflow: auto;
+    }
+}
+@media(max-height: 720px){
+    .side-navs{
+        height: 358px;
+        overflow: auto;
+    }
+}

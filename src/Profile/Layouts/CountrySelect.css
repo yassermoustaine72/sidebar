@@ -1,0 +1,346 @@
+.flagSelect{
+    box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 11.0039px 9.43194px 11.0039px 15.7199px;
+justify-content: center;
+width: 100%;
+height: 49px;
+position: relative;
+
+left:0;
+background: #FFFFFF;
+
+border: 1.8px solid #DADADA;
+border-radius: 5px;
+
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.boxCountry{
+    position: absolute;
+    top: 50px; /* Ajustez selon votre besoin */
+    left: 0;
+    right: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    z-index: 1;
+    max-height: 200px;
+    overflow-y: auto;
+}
+.imgSelect{
+    margin-left: -2px;
+    width:20px;
+    margin-right: 4px;
+}
+.codeSelect{
+    font-size: 14px;
+}
+
+.flecheFlag{
+    margin-left: 7px;
+   
+}
+/* @media (max-width: 1439px) and (min-width: 1024px){
+
+    .flagSelect{
+        height:42px;
+    }
+    .imgSelect{
+        width:19px;
+        margin-right:4px;
+    }
+    .flecheFlag{
+        margin-left: 4px;
+    }
+    .codeSelect{
+        font-size: 13px;
+    }
+    .boxCountry{
+        
+        width:110px
+    }
+
+}
+
+@media (min-width:915px) and (max-width:979px){
+    .flagSelect{
+        height:42px;
+    }
+    .imgSelect{
+        width:19px;
+        margin-right:4px;
+    }
+    .flecheFlag{
+        margin-left: 4px;
+    }
+    .codeSelect{
+        font-size: 12px;
+    }
+}
+
+@media (min-width:850px) and (max-width:914px){
+    .flagSelect{
+        height:42px;
+        width:21%
+    }
+    .imgSelect{
+        width:17px;
+        margin-right:4px;
+    }
+    .flecheFlag{
+        margin-left: 4px;
+    }
+    .codeSelect{
+        font-size: 12px;
+    }
+    .boxCountry{
+        
+        width:110px
+    }
+}
+@media (min-width:768px) and (max-width:849px){
+    .flagSelect{
+        height:41px;
+        width:22%
+    }
+    .imgSelect{
+        width:15px;
+        margin-right:4px;
+    }
+    .flecheFlag{
+        margin-left: 4px;
+    }
+    .codeSelect{
+        font-size: 11px;
+    }
+    .boxCountry{
+        
+        width:110px
+    }
+}
+@media (max-width:767px) and (min-width:693px){
+    .flagSelect{
+        height:41px;
+        width:23%
+    }
+    .imgSelect{
+        width:15px;
+        margin-right:4px;
+    }
+    .flecheFlag{
+        margin-left: 4px;
+    }
+    .codeSelect{
+        font-size: 11px;
+    }
+    .boxCountry{
+       
+        width:110px
+    }
+}
+@media (max-width:692px) and (min-width:617px){
+    .flagSelect{
+        height:41px;
+        width:23.5%
+    }
+    .imgSelect{
+        width:15px;
+        margin-right:4px;
+    }
+    .flecheFlag{
+        margin-left: 3px;
+        width:10px;
+        height: 10px;
+        
+       
+    }
+    .codeSelect{
+        font-size: 11px;
+    }
+    .boxCountry{
+       
+        width:110px
+    }
+}
+
+@media (max-width:616px) and (min-width:538px){
+    .flagSelect{
+        height:38px;
+        width:28%
+    }
+    .imgSelect{
+        width:14px;
+        margin-right:4px;
+    }
+    .flecheFlag{
+        margin-left: 3px;
+        width:10px;
+        height: 10px;
+        
+       
+    }
+    .codeSelect{
+        font-size: 10.5px;
+        margin-top: 2px;
+    }
+    .boxCountry{
+       top:40px;
+        width:110px
+    }
+}
+@media (max-width:537px) and (min-width:506px){
+    .flagSelect{
+        height:38px;
+        width:31%
+    }
+    .imgSelect{
+        width:14px;
+        margin-right:4px;
+    }
+    .flecheFlag{
+        margin-left: 3px;
+        width:10px;
+        height: 10px;
+        
+       
+    }
+    .codeSelect{
+        font-size: 10.5px;
+        margin-top: 2px;
+    }
+    .boxCountry{
+       top:40px;
+        width:110px
+    }
+}
+
+@media (max-width:505px) and (min-width:485px){
+
+    .flagSelect{
+        height:35px;
+        width:35%
+    }
+    .imgSelect{
+        width:14px;
+        margin-right:4px;
+    }
+    .flecheFlag{
+        margin-left: 3px;
+        width:10px;
+        height: 10px;
+        
+       
+    }
+    .codeSelect{
+        font-size: 10.5px;
+        margin-top: 2px;
+    }
+    .boxCountry{
+       top:40px;
+        width:110px
+    }
+
+}
+@media (max-width:484px) and (min-width:426px){
+    .flagSelect{
+        height:32px;
+        width:38%
+    }
+    .imgSelect{
+        width:12px;
+        margin-right:4px;
+    }
+    .flecheFlag{
+        margin-left: 3px;
+        width:10px;
+        height: 10px;
+        
+       
+    }
+    .codeSelect{
+        font-size: 10px;
+        margin-top: -1px;
+    }
+    .boxCountry{
+       top:40px;
+        width:110px
+    }
+}*/
+
+@media (max-width:425px){
+    .flagSelect{
+        height:39px
+    }
+    .imgSelect{
+        width:14px;
+        margin-right:4px;
+    }
+    .flecheFlag{
+        margin-left: 3px;
+        width:10px;
+        height: 10px;
+        
+       
+    }
+    .codeSelect{
+        font-size: 11px;
+        margin-top: -1px;
+    }
+    .boxCountry{
+       top:40px;
+        width:110px
+    }
+}
+
+@media (max-width:375px){
+    
+    .imgSelect{
+        width:12px;
+       
+    }
+    .flecheFlag{
+        margin-left: 3px;
+        width:10px;
+        height: 10px;
+        
+       
+    }
+    .codeSelect{
+        font-size: 10px;
+        margin-top: -1px;
+    }
+    .boxCountry{
+       top:40px;
+        width:110px
+    }
+}
+@media (max-width:320px){
+   
+    .imgSelect{
+        width:12px;
+        margin-right:4px;
+    }
+    .flecheFlag{
+        margin-left: -2px;
+        width:10px;
+        height: 10px;
+        
+       
+    }
+    .codeSelect{
+        font-size: 9px;
+        margin-top: -1px;
+    }
+    .boxCountry{
+       top:40px;
+        width:110px
+    }
+} 
